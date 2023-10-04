@@ -1,0 +1,29 @@
+.team{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+.team>h1{
+    text-align: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.team img:nth-of-type(1){
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:0;
+    float: left;
+    transform: scale(1.0);
+}
+.s-blur2{
+    left: 14rem;
+    top: 18rem;
+}
+.s-blur1{
+    left: -18rem;
+    top: 13rem;
+}

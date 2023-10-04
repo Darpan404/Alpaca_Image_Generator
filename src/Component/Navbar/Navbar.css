@@ -1,0 +1,55 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&family=Tilt+Prism&display=swap');
+
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.n-left{
+    flex: 1;
+    align-items: center;
+    gap: 2rem;
+    display: flex;
+    margin-left: 60px;
+
+}
+.n-name{
+    overflow: hidden;
+    margin-top: 30px;
+    height: 80px;
+    width: 100px;
+    
+}
+.n-left>div{
+    margin-left: 0;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+.n-right{
+    display: flex;
+    flex: 1;align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    margin-right: 60px;
+}
+.n-list{
+    flex: 10;
+}
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    list-style: none;
+}
+.n-list>ul>li:hover{
+    cursor: pointer;
+    color: #7e22ce;
+}
+.n-button{
+    flex: 2;
+}
